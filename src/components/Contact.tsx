@@ -42,15 +42,15 @@ const Contact: React.FC = () => {
     try {
       const response = await axios.post(apiBaseUrl, data);
       console.log(response);
-      if (language === "DE") {
-        toast.success(toastMessages.successEmailSent.de);
+      if (language === "VN") {
+        toast.success(toastMessages.successEmailSent.vn);
       } else {
         toast.success(toastMessages.successEmailSent.en);
       }
     } catch (error) {
       console.log(error);
-      if (language === "DE") {
-        toast.error(toastMessages.failedEmailSent.de);
+      if (language === "VN") {
+        toast.error(toastMessages.failedEmailSent.vn);
       } else {
         toast.error(toastMessages.failedEmailSent.en);
       }
@@ -148,7 +148,7 @@ ${name}${lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""}
   // // 🚀 Initiating Quantum Email Transmission 🪐
   // const launchEmail = async () => {
   //   try {
-  //     const response = await fetch('https://alpaycelik.dev/send',{
+  //     const response = await fetch('https://alpaycelik.vnv/send',{
   //     method: 'POST',
   //     headers: {'Content-Type': 'application/json'},
   //     body: JSON.stringify({
@@ -191,13 +191,13 @@ ${name}${lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""}
           >
             <p className="text-[--black] mb-6">
               <span className="text-[--orange]">&lt;</span>
-              {language === "DE" ? contactData.title.de : contactData.title.en}
+              {language === "VN" ? contactData.title.vn : contactData.title.en}
               <span className="text-[--orange]">/&gt;</span>
             </p>
 
             <h2 className="text-[--black] text-center">
-              {language === "DE"
-                ? contactData.description.de
+              {language === "VN"
+                ? contactData.description.vn
                 : contactData.description.en}
             </h2>
           </motion.div>
@@ -232,8 +232,8 @@ ${name}${lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""}
                 key={index}
                 type={input.type}
                 placeholder={
-                  language === "DE"
-                    ? `${input.placeholder.de}`
+                  language === "VN"
+                    ? `${input.placeholder.vn}`
                     : `${input.placeholder.en}`
                 }
                 name={input.name}
@@ -266,8 +266,8 @@ ${name}${lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""}
             <textarea
               rows={contactData.textarea.rows}
               placeholder={
-                language === "DE"
-                  ? `${contactData.textarea.placeholder.de}`
+                language === "VN"
+                  ? `${contactData.textarea.placeholder.vn}`
                   : `${contactData.textarea.placeholder.en}`
               }
               name={contactData.textarea.name}
@@ -300,20 +300,20 @@ ${name}${lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""}
                 <span className="checkbox"></span>
               </label>
               <p>
-                {language === "DE"
-                  ? `${contactData.privacyOptIn.checkbox.de}`
+                {language === "VN"
+                  ? `${contactData.privacyOptIn.checkbox.vn}`
                   : `${contactData.privacyOptIn.checkbox.en}`}
               </p>
             </div>
             <p>
-              {language === "DE"
-                ? `${contactData.privacyOptIn.description.de}`
+              {language === "VN"
+                ? `${contactData.privacyOptIn.description.vn}`
                 : `${contactData.privacyOptIn.description.en}`}
             </p>
             <Button
               value={
-                language === "DE"
-                  ? `${contactData.button.value.de}`
+                language === "VN"
+                  ? `${contactData.button.value.vn}`
                   : `${contactData.button.value.en}`
               }
               iconSVG={contactData.icon}

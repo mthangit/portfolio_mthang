@@ -39,19 +39,19 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
+    vn: "Hi, ich bin Alpay",
     en: "Hi, I'm Thang",
   },
   subtitle: "Backend Developer ",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
+    vn: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
     en: "I'm Thang, a backend developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        de: "Kontaktiere mich",
+        vn: "Kontaktiere mich",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +60,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        de: "Meine Projekte",
+        vn: "Meine Projekte",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -169,7 +169,7 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    de: "Weitere Projekte auf Github",
+    vn: "Weitere Projekte auf Github",
     en: "More Projects on Github",
   },
 } as const;
@@ -297,21 +297,21 @@ export const skillsDataCMS = [
 ] as const;
 
 export const navLinks = [
-  { de: "Home", en: "Home", hash: "#home", icon: GoHome },
-  { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { de: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { vn: "Home", en: "Home", hash: "#home", icon: GoHome },
+  { vn: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
+  { vn: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
+  { vn: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
+  { vn: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { de: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { de: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  { vn: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  { vn: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto:manhthang085213@com",
+  text: "manhthang085213",
 } as const;
 
 export const sideBarLeftSocials = [
@@ -334,12 +334,12 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    de: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
+    vn: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
   },
   {
-    de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
+    vn: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
     en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
@@ -349,7 +349,7 @@ export const aboutMeData = {
   title_EN: "About me",
   description: "Ein paar Codeschnippsel über mich",
   description_EN: "A few code snippets about me",
-  paragraphs_DE: [
+  paragraphs_vn: [
     {
       title: "Die Schaltkreise meines Herzens",
       description:
@@ -393,23 +393,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    de: "Kontakt",
+    vn: "Kontakt",
     en: "Contact",
   },
   description: {
-    de: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    vn: "Schreib mir eine Nachricht und ich melde mich bei dir.",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        de: "Dein Name",
+        vn: "Dein Name",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe deinen Namen ein",
+        vn: "Bitte gebe deinen Namen ein",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -417,12 +417,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        de: "Deine E-Mail Adresse",
+        vn: "Deine E-Mail Adresse",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        de: "Bitte gebe deine Email ein",
+        vn: "Bitte gebe deine Email ein",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -430,12 +430,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        de: "Deine Betreff",
+        vn: "Deine Betreff",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe einen Betreff ein",
+        vn: "Bitte gebe einen Betreff ein",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -443,20 +443,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      de: "Deine Nachricht",
+      vn: "Deine Nachricht",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      de: "Bitte gebe deine Nachricht ein",
+      vn: "Bitte gebe deine Nachricht ein",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      de: "Absenden",
+      vn: "Absenden",
       en: "Send",
     },
   },
@@ -469,11 +469,11 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
+      vn: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
       en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      de: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
+      vn: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
       en: "By submitting this request, you acknowledge that you have read the Private Policy",
     },
   },
@@ -481,26 +481,26 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    de: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    vn: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
-    de: "🦄 Vielen Dank für deine Email. Ich werde mich schnellstmöglich bei dir melden",
+    vn: "🦄 Vielen Dank für deine Email. Ich werde mich schnellstmöglich bei dir melden",
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    de: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
+    vn: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    de: "Bitte gebe deinen Namen ein",
+    vn: "Bitte gebe deinen Namen ein",
     en: "Please fill in your name",
   },
 } as const;
 
 export const buttonLabels = {
   language: {
-    de: "DE",
+    vn: "VN",
     en: "EN",
   },
 } as const;
