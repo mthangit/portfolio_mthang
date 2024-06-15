@@ -50,6 +50,11 @@ const Home: React.FC = () => {
               height="small"
               dividerStyle="solid"
             />
+            <LazyBannerQuote
+              style={"noBG"}
+              quoteIndex={1}
+              containerType="statement"
+            />
 
             <LazyTechStack />
             <Divider
@@ -60,11 +65,6 @@ const Home: React.FC = () => {
               dividerStyle="solid"
             />
 
-            <LazyBannerQuote
-              style={"noBG"}
-              quoteIndex={1}
-              containerType="statement"
-            />
             <Divider
               thickness="0.25rem"
               direction="middle"

@@ -22,13 +22,13 @@ import expoicon from "../../assets/icons/expo.svg";
 import flask from "../../assets/icons/flask.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
-import wordpressicon from "../../assets/icons/wordpressicon.svg";
-import shopifyicon from "../../assets/icons/shopifyicon.svg";
-import webflowicon from "../../assets/icons/webflowicon.svg";
+// import wordpressicon from "../../assets/icons/wordpressicon.svg";
+// import shopifyicon from "../../assets/icons/shopifyicon.svg";
+// import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
-import profilepicture from "../img/me2.webp";
+import profilepicture from "../img/anh1.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
@@ -40,6 +40,15 @@ import python from "../../assets/icons/python.svg";
 import yolo from "../../assets/icons/yolo.svg";
 import laravel from "../../assets/icons/laravel.svg";
 import sqlserver from "../../assets/icons/sqlserver.svg";
+import powerapp from "../../assets/icons/powerapp.svg";
+import powerautomate from "../../assets/icons/powerautomate.svg";
+import sharepoint from "../../assets/icons/sharepoint.svg";
+import java from "../../assets/icons/java.svg";
+import php from "../../assets/icons/php.svg";
+import cpp from "../../assets/icons/cpp.svg";
+import oracle from "../../assets/icons/oracle.svg";
+import aibuilder from "../../assets/icons/aibuilder.svg";
+import docker from "../../assets/icons/docker.svg";
 // import sqlserverwhite from "../../assets/icons/sqlserver.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -189,26 +198,8 @@ export const liveTickerData = {
 
 export const skillsDataWeb = [
   {
-    skillsTitle: "WebDevelopment",
+    skillsTitle: "Technologies",
     skills: [
-      {
-        title: "HTML",
-        hash: "#html",
-        icon: htmlicon,
-        color: "#F1662A",
-      },
-      {
-        title: "CSS",
-        hash: "#CSS",
-        icon: cssicon,
-        color: "#1572B6",
-      },
-      {
-        title: "JavaScript",
-        hash: "#JavaScript",
-        icon: javascripticon,
-        color: "#F7DF1E",
-      },
       {
         title: "TypeScript",
         hash: "#TypeScript",
@@ -216,16 +207,10 @@ export const skillsDataWeb = [
         color: "#007ACC",
       },
       {
-        title: "React",
-        hash: "#React",
+        title: "React Native",
+        hash: "#ReactNative",
         icon: reacticon,
         color: "#61DAFB",
-      },
-      {
-        title: "Laravel",
-        hash: "#Laravel",
-        icon: laravel,
-        color: "#ef361d",
       },
       {
         title: "Node.js",
@@ -237,9 +222,50 @@ export const skillsDataWeb = [
         title: "Python",
         hash: "#Python",
         icon: python,
-        color: "#339933",
+        color: "#327EBD",
       },
-
+      {
+        title: "Flask",
+        hash: "#Flask",
+        icon: flask,
+        color: "#000000",
+      },
+      {
+        title: "Java",
+        hash: "#Java",
+        icon: java,
+        color: "#5382A1",
+      },
+      {
+        title: "PHP",
+        hash: "#PHP",
+        icon: php,
+        color: "#4C6B97",
+      },
+      {
+        title: "Laravel",
+        hash: "#Laravel",
+        icon: laravel,
+        color: "#FF2D20",
+      },
+      {
+        title: "C++",
+        hash: "#C++",
+        icon: cpp,
+        color: "#00599c",
+      },
+      {
+        title: "JavaScript",
+        hash: "#JavaScript",
+        icon: javascripticon,
+        color: "#F7DF1E",
+      },
+      {
+        title: "Docker",
+        hash: "#Docker",
+        icon: docker,
+        color: "#2396ED",
+      },
     ],
   },
 ] as const;
@@ -252,7 +278,19 @@ export const skillsDataDesign = [
         title: "MySQL",
         hash: "#MySQL",
         icon: mysql,
-        color: "#007ACC",
+        color: "#00758F",
+      },
+      {
+        title: "SQL Server",
+        hash: "#SQLServer",
+        icon: sqlserver,
+        color: "#b60a0a"
+      },
+      {
+        title: "Oracle",
+        hash: "#Oracle",
+        icon: oracle,
+        color: "#EA1B22"
       },
       {
         title: "MongoDB",
@@ -260,32 +298,37 @@ export const skillsDataDesign = [
         icon: mongodbicon,
         color: "#449C45",
       },
-      { title: "SQL Server", hash: "#SQLServer", icon: sqlserver, color: "#b60a0a" },
+      {
+        title: "Sharepoint",
+        hash: "#Sharepoint",
+        icon: sharepoint,
+        color: "#1D9097",
+      },
     ],
   },
 ] as const;
 
 export const skillsDataCMS = [
   {
-    skillsTitle: "CMS",
+    skillsTitle: "Microsoft 365",
     skills: [
       {
-        title: "WordPress",
-        hash: "#WordPress",
-        icon: wordpressicon,
-        color: "#21759B",
+        title: "PowerApps",
+        hash: "#PowerApps",
+        icon: powerapp,
+        color: "#9c4bb9",
       },
       {
-        title: "Shopify",
-        hash: "#Shopify",
-        icon: shopifyicon,
-        color: "#7AB55C",
+        title: "PowerAutomate",
+        hash: "#PowerAutomate",
+        icon: powerautomate,
+        color: "#3885f1",
       },
       {
-        title: "Webflow",
-        hash: "#Webflow",
-        icon: webflowicon,
-        color: "#4353FF",
+        title: "AI Builder",
+        hash: "#AIBuilder",
+        icon: aibuilder,
+        color: "#1D9097",
       },
     ],
   },
@@ -331,12 +374,12 @@ export const quotesData = [
   {
     vn: '"Độc lập – Tự do – Hạnh phúc"',
     en: `"Independence – Liberty – Happiness"`,
-    author_en: "Ho Chi Minh President",
+    author_en: "President Ho Chi Minh",
     author_vn: "Chủ tịch Hồ Chí Minh",
   },
   {
-    vn: '"Cuộc sống như là một tờ giấy trắng, hãy vẽ lên nó bằng trải nghiệm của mình!"',
-    en: `"Life is like a blank sheet of paper, paint it with your experiences."`,
+    vn: '"Cuộc sống là một tờ giấy trắng, hãy vẽ lên nó với trải nghiệm của mình!"',
+    en: `"Life is a blank sheet of paper, paint it with your experiences."`,
   },
 ] as const;
 
@@ -347,22 +390,25 @@ export const aboutMeData = {
   description_EN: "A few code snippets about me",
   paragraphs_vn: [
     {
-      title: "Ngoài giờ làm việc",
+      title: "Kinh nghiệm làm việc",
       description:
-        "Khi không code, mình đắm chìm vào những bộ phim và những bộ truyện tiên hiệp. Một tài năng hơi vô tri là mình có thể đọc truyện liên tục từ đêm đến sáng mà hôm sau vẫn đi học bình thường.",
+        "Thực tập sinh Power Platform, khối CNTT - PNJ \n  - Thời gian: 9/2023 - 3/2024\n\n Cộng tác viên IT, IIG Vietnam\n - Thời gian 9/2022 - 9/2023",
       icon: hardwareicon,
+      link: "",
     },
     {
-      title: "Trên con đường sự nghiệp",
+      title: "Học vấn",
       description:
-        "Mình học tại trường Đại học Công nghệ Thông tin - ĐHQG HCM. Mình dường như khá may mắn trên con đường học tập, dù vẫn chưa có được cái học bổng nào 😢",
+        "Trường Đại học CNTT, ĐHQG TPHCM (2021-2025)\n - Ngành học: Hệ thống thông tin\n - GPA: 8.3/10",
       icon: caricon,
+      link: "",
     },
     {
-      title: "Sở thích",
+      title: "Thông tin cá nhân",
       description:
-        "Mặc dù thích những thứ hiện đại, tương lai nhưng mình cũng thích đi du lịch, thích khám phá các cảnh đẹp tự nhiên, hoang sơ của đất nước. Có thể một ngày nào đó mình sẽ thực hiện một chuyến đi du lịch xuyên việt bằng xe máy.",
+        "Ngày sinh: 20/07/2003\n\n Địa chỉ: Hóc Môn, TP HCM\n",
       icon: travelicon,
+      link: "https://drive.google.com/file/d/10deGgZ0rTVSjQsq5HuqEGkVQHZJ5h_E9/view?usp=sharing"
     },
   ],
   paragraphs_EN: [
@@ -371,18 +417,21 @@ export const aboutMeData = {
       description:
         "When I'm not coding, I immerse myself in movies and fantasy novels. A somewhat trivial talent of mine is that I can read stories all night long and still attend classes the next day as if nothing happened.",
       icon: hardwareicon,
+      link: "",
     },
     {
       title: "On My Career Path",
       description:
         "I study at the University of Information Technology - Vietnam National University HCM. I seem to be quite fortunate in my academic journey, although I haven't received any scholarships yet 😢",
       icon: caricon,
+      link: "",
     },
     {
       title: "Hobbies",
       description:
         "Although I have a fondness for modern and futuristic things, I also love traveling and exploring the beautiful, untouched landscapes of my country. Someday, I might embark on a cross-country motorcycle trip.",
       icon: travelicon,
+      link: "",
     },
   ],
 };

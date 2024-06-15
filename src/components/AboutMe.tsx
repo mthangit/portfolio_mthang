@@ -81,6 +81,7 @@ const AboutMe: React.FC = () => {
               <SwiperSlide
                 className="bg-[--darkblue] text-[--white] flex flex-col justify-center items-start gap-24 rounded-2xl p-20 border-solid border-[0.4rem] border-[--lightblue] hover:border-orange duration-500 transition-all text-left max-lg:p-10 cursor-grab"
                 key={index}
+                style={{ width: '80%' }}
               >
                 <div className="flex gap-6 flex-row justify-start items-center max-lg:flex-col max-lg:justify-center max-lg:text-center ">
                   <div>
@@ -112,8 +113,19 @@ const AboutMe: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-white text-4xl">
-                      {paragraph.description}
+                      {paragraph.description.split('\n').map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line}
+                          <br />
+                        </React.Fragment>
+                      ))}
                     </p>
+                    {paragraph.link && (
+                      <p>
+                        CV của mình: {" "}
+                        <a href={paragraph.link} target="_blank" className="text-blue-500 hover:underline">ThangCV_EN</a>
+                      </p>
+                    )}
                   </div>
                 </div>
               </SwiperSlide>
