@@ -73,11 +73,11 @@ const ProjectSlider: React.FC = () => {
             >
               <p className="text-[--white] mt-16 mb-6">
                 <span className="text-[--orange]">&lt;</span>
-                {language === "VN" ? "Projekte" : "Projects"}
+                {language === "VN" ? "Projects" : "Projects"}
                 <span className="text-[--orange]">/&gt;</span>
               </p>
               <h2 className="text-[--white] mb-16">
-                {language === "VN" ? "Meine Projekte" : "My Projects"}
+                {language === "VN" ? "Sản phẩm của mình" : "My Projects"}
               </h2>
             </motion.div>
             <Swiper
@@ -110,7 +110,7 @@ const ProjectSlider: React.FC = () => {
                     </p>
                     <div className="technologies">
                       <h3>
-                        {language === "VN" ? "Technologien" : "Technologies"}
+                        {language === "VN" ? "Công nghệ sử dụng" : "Technologies"}
                       </h3>
                       <div className="grid grid-cols-6 gap-10 p-4">
                         {project.technologies.map(
@@ -135,6 +135,7 @@ const ProjectSlider: React.FC = () => {
                         buttoncolor={project.colors.main}
                         iconcolor={project.colors.icon}
                         onClick={notifyServerRequest}
+                        
                       />
                       <Button
                         label="Github Repository"

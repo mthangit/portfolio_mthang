@@ -18,6 +18,8 @@ import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
 import spotifyicon from "../../assets/icons/spotifyicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
+import expoicon from "../../assets/icons/expo.svg";
+import flask from "../../assets/icons/flask.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
@@ -32,6 +34,14 @@ import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
+import reactnativeicon from "../../assets/icons/reactnativeicon.svg";
+import mysql from "../../assets/icons/mysqlicon.svg";
+import python from "../../assets/icons/python.svg";
+import yolo from "../../assets/icons/yolo.svg";
+import laravel from "../../assets/icons/laravel.svg";
+import sqlserver from "../../assets/icons/sqlserver.svg";
+import sqlserverwhite from "../../assets/icons/sqlserver.png";
+
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
@@ -72,25 +82,28 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "Health Buddy App",
     description:
-      "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
+      "Ứng dụng di động nhắm vào việc quản lý sức khỏe, theo dõi hoạt động thể chất, giám sát lượng calo tiêu thụ, theo dõi lượng nước uống, cung cấp các gợi ý món ăn và thực đơn bữa ăn dựa trên dữ liệu cá nhân và các nguyên liệu được nhận diện từ camera.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "The mobile application aims to manage health, track physical activity, monitor calorie intake, track water consumption, provide personalized dish suggestions and meal plans based on individual data and ingredient detected from the camera.",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "REST Api", icon: apiicon },
-      { name: "React", icon: reacticon },
+      { name: "REST APIs", icon: apiicon },
+      { name: "React Native", icon: reactnativeicon },
       { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
-      { name: "Netlify", icon: netlifyicon },
-      { name: "Trello", icon: trelloicon },
+      { name: "Flask", icon: flask },
+      { name: "Expo", icon: expoicon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "MySQL", icon: mysql },
+      { name: "Python", icon: python },
+      { name: "YOLOv8", icon: yolo },
+
+
     ],
     image: tastyMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    deploymenturl: "",
+    githuburl: "https://github.com/mthangit/HealthBuddyApp",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -209,10 +222,10 @@ export const skillsDataWeb = [
         color: "#61DAFB",
       },
       {
-        title: "Next.js",
-        hash: "#Next.js",
-        icon: [nextjsicon, nextjsiconwhite],
-        color: ["#000000", "#FFFFFF"],
+        title: "Laravel",
+        hash: "#Laravel",
+        icon: laravel,
+        color: "#ef361d",
       },
       {
         title: "Node.js",
@@ -221,10 +234,25 @@ export const skillsDataWeb = [
         color: "#339933",
       },
       {
-        title: "Tailwind",
-        hash: "#Tailwind",
-        icon: tailwindcssicon,
-        color: "#38B2AC",
+        title: "Python",
+        hash: "#Python",
+        icon: python,
+        color: "#339933",
+      },
+
+    ],
+  },
+] as const;
+
+export const skillsDataDesign = [
+  {
+    skillsTitle: "Database",
+    skills: [
+      {
+        title: "MySQL",
+        hash: "#MySQL",
+        icon: mysql,
+        color: "#007ACC",
       },
       {
         title: "MongoDB",
@@ -232,40 +260,7 @@ export const skillsDataWeb = [
         icon: mongodbicon,
         color: "#449C45",
       },
-      {
-        title: "Vue.js",
-        hash: "#Vue.js",
-        icon: vuejsicon,
-        color: "#4FC08D",
-      },
-      {
-        title: "Express",
-        hash: "#Express",
-        icon: [expressicon, expressiconwhite],
-        color: ["#000000", "#FFFFFF"],
-      },
-      {
-        title: "SASS/SCSS",
-        hash: "#SASS/SCSS",
-        icon: sassscssicon,
-        color: "#CC6699",
-      },
-    ],
-  },
-] as const;
-
-export const skillsDataDesign = [
-  {
-    skillsTitle: "Design",
-    skills: [
-      { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
-      {
-        title: "Adobe XD",
-        hash: "#Adobe XD",
-        icon: adobexdicon,
-        color: "#FF61F6",
-      },
-      { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
+      { title: "SQL Server", hash: "#SQLServer", icon: sqlserver, color: "#b60a0a" },
     ],
   },
 ] as const;
@@ -316,7 +311,7 @@ export const sideBarRightMail = {
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/mthangit/",
+    link: "https://www.linkedin.com/in/mthangit",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
@@ -346,7 +341,7 @@ export const quotesData = [
 ] as const;
 
 export const aboutMeData = {
-  title: "Bật mí",
+  title: "About me",
   title_EN: "About me",
   description: "Một số thứ về mình",
   description_EN: "A few code snippets about me",
@@ -394,7 +389,7 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    vn: "Liên hệ",
+    vn: "Contact",
     en: "Contact",
   },
   description: {
