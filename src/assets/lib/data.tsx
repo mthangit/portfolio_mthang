@@ -39,19 +39,19 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    vn: "Hi, ich bin Alpay",
+    vn: "Hé lô, mình là Thắng",
     en: "Hi, I'm Thang",
   },
   subtitle: "Backend Developer ",
   description: {
-    vn: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Thang, a backend developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    vn: "Mình là Thắng, một sinh viên năm thứ ba với niềm đam mê mãnh liệt với công nghệ. Hiện tại, mình đang trên con đường chinh phục ước mơ trở thành một lập trình viên backend, và đây chính là nơi mình bắt đầu hiện thực hóa giấc mơ đó!",
+    en: "I'm Thang, a third-year student with a deep passion for technology. I am on a journey to fulfill my dream of becoming a backend developer, and this is where I start turning that dream into reality",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        vn: "Kontaktiere mich",
+        vn: "Mail cho mình",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +60,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        vn: "Meine Projekte",
+        vn: "Sản phẩm của mình",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -169,8 +169,8 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    vn: "Weitere Projekte auf Github",
-    en: "More Projects on Github",
+    vn: "Github của mình",
+    en: "Check my Github",
   },
 } as const;
 
@@ -299,14 +299,14 @@ export const skillsDataCMS = [
 export const navLinks = [
   { vn: "Home", en: "Home", hash: "#home", icon: GoHome },
   { vn: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { vn: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { vn: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { vn: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { vn: "Projects", en: "Projects", hash: "#projects", icon: GoProject },
+  { vn: "About me", en: "About me", hash: "#about-me", icon: GoPerson },
+  { vn: "Contact", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { vn: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { vn: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  { vn: "Nguồn", en: "Source", hash: "#imprint", data: <Imprint /> },
+  { vn: "Chính sách riêng tư", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
@@ -334,58 +334,59 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    vn: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
-    en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
-    author: "Andrew Hunt",
+    vn: '"Độc lập – Tự do – Hạnh phúc"',
+    en: `"Independence – Liberty – Happiness"`,
+    author_en: "Ho Chi Minh President",
+    author_vn: "Chủ tịch Hồ Chí Minh",
   },
   {
-    vn: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
+    vn: '"Cuộc sống như là một tờ giấy trắng, hãy vẽ lên nó bằng trải nghiệm của mình!"',
+    en: `"Life is like a blank sheet of paper, paint it with your experiences."`,
   },
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "Bật mí",
   title_EN: "About me",
-  description: "Ein paar Codeschnippsel über mich",
+  description: "Một số thứ về mình",
   description_EN: "A few code snippets about me",
   paragraphs_vn: [
     {
-      title: "Die Schaltkreise meines Herzens",
+      title: "Ngoài giờ làm việc",
       description:
-        "Wenn ich nicht in der digitalen Welt unterwegs bin, durchstreife ich die faszinierende Welt der Technik und Hardware. Schaltkreise und Lötstellen sind für mich wie Puzzleteile eines aufregenden Abenteuers.",
+        "Khi không code, mình đắm chìm vào những bộ phim và những bộ truyện tiên hiệp. Một tài năng hơi vô tri là mình có thể đọc truyện liên tục từ đêm đến sáng mà hôm sau vẫn đi học bình thường.",
       icon: hardwareicon,
     },
     {
-      title: "Auf der Überholspur des Lebens",
+      title: "Trên con đường sự nghiệp",
       description:
-        "Neben dem Coden befinde ich mich gerne auf der Überholspur – im wahrsten Sinne des Wortes. Autos sind meine Leidenschaft, und ich genieße es, mit PS-starken Maschinen auf unbekannten Straßen unterwegs zu sein.",
+        "Mình học tại trường Đại học Công nghệ Thông tin - ĐHQG HCM. Mình dường như khá may mắn trên con đường học tập, dù vẫn chưa có được cái học bổng nào 😢",
       icon: caricon,
     },
     {
-      title: "Entdeckungsfreude als Lebensmotto",
+      title: "Sở thích",
       description:
-        "Meine Reise als Webentwickler ist nur ein Teil meines Lebenswegs. Ich lebe nach dem Motto, dass das Abenteuer erst beginnt, wenn man das Bekannte hinter sich lässt. Das Entdecken neuer Orte ist meine Form der kreativen Inspiration.",
+        "Mặc dù thích những thứ hiện đại, tương lai nhưng mình cũng thích đi du lịch, thích khám phá các cảnh đẹp tự nhiên, hoang sơ của đất nước. Có thể một ngày nào đó mình sẽ thực hiện một chuyến đi du lịch xuyên việt bằng xe máy.",
       icon: travelicon,
     },
   ],
   paragraphs_EN: [
     {
-      title: "The Circuits of My Heart",
+      title: "After Hours",
       description:
-        "When I'm not navigating the digital world, I explore the fascinating realm of technology and hardware. Circuits and solder joints are like puzzle pieces to me in an exciting adventure.",
+        "When I'm not coding, I immerse myself in movies and fantasy novels. A somewhat trivial talent of mine is that I can read stories all night long and still attend classes the next day as if nothing happened.",
       icon: hardwareicon,
     },
     {
-      title: "On the Fast Lane of Life",
+      title: "On My Career Path",
       description:
-        "Besides coding, I like to be on the fast lane - in the truest sense of the word. Cars are my passion, and I enjoy being on unknown roads with powerful machines.",
+        "I study at the University of Information Technology - Vietnam National University HCM. I seem to be quite fortunate in my academic journey, although I haven't received any scholarships yet 😢",
       icon: caricon,
     },
     {
-      title: "The Joy of Discovery as a Life Motto",
+      title: "Hobbies",
       description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
+        "Although I have a fondness for modern and futuristic things, I also love traveling and exploring the beautiful, untouched landscapes of my country. Someday, I might embark on a cross-country motorcycle trip.",
       icon: travelicon,
     },
   ],
@@ -393,23 +394,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    vn: "Kontakt",
+    vn: "Liên hệ",
     en: "Contact",
   },
   description: {
-    vn: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    vn: "Gửi tin nhắn cho mình.",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        vn: "Dein Name",
+        vn: "Tên bạn là gì?",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        vn: "Bitte gebe deinen Namen ein",
+        vn: "Nhớ điền tên nhé",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -417,12 +418,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        vn: "Deine E-Mail Adresse",
+        vn: "Email",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        vn: "Bitte gebe deine Email ein",
+        vn: "Nhớ nhập email vô nha",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -430,12 +431,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        vn: "Deine Betreff",
+        vn: "Tiêu đề",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        vn: "Bitte gebe einen Betreff ein",
+        vn: "Điền tiêu đề vào đây nè",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -443,20 +444,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      vn: "Deine Nachricht",
+      vn: "Bạn muốn nói gì với mình?",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      vn: "Bitte gebe deine Nachricht ein",
+      vn: "Điền nội dung vào đây nè",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      vn: "Absenden",
+      vn: "Gửi",
       en: "Send",
     },
   },
@@ -469,11 +470,11 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      vn: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
+      vn: "Tôi đồng ý cho Thắng dùng email và tên để liên lạc với tôi.",
       en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      vn: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
+      vn: "Khi gửi yêu cầu này, bạn đã đọc và đồng ý với chính sách riêng tư",
       en: "By submitting this request, you acknowledge that you have read the Private Policy",
     },
   },
@@ -481,19 +482,19 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    vn: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    vn: "🦄 Demo đang chạy, bạn đợi chút nhé...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
-    vn: "🦄 Vielen Dank für deine Email. Ich werde mich schnellstmöglich bei dir melden",
+    vn: "🦄 Cảm ơn vì đã gửi mail cho mình. Mình sẽ trả lời sớm nhất có thể",
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    vn: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
+    vn: "🦄 Lỗi xảy ra, bạn thử lại sau nhé",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    vn: "Bitte gebe deinen Namen ein",
+    vn: "Nhớ nhập tên bạn vào nhé",
     en: "Please fill in your name",
   },
 } as const;

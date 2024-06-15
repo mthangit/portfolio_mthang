@@ -39,7 +39,13 @@ const BannerQuote: React.FC<BannerProps> = ({
             <h2 className="text-[--white] text-center text-8xl mb-20 mt-20 max-lg:text-[3rem] max-lg:mb-10 max-lg:leading-tight">
               {quoteTranslation}
             </h2>
-            <p className="text-[--grey]">{quotesData[0].author}</p>
+            {
+              language === "VN" ? (
+                <p className="text-[--grey]">{(quotesData[quoteIndex] as { vn: string; en: string; author_en: string; author_vn: string }).author_vn}</p>
+              ) : (
+                <p className="text-[--grey]">{(quotesData[quoteIndex] as { vn: string; en: string; author_en: string; author_vn: string }).author_en}</p>
+              )
+            }
           </div>
         </div>
       </section>
