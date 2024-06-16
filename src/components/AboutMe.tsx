@@ -34,6 +34,8 @@ const AboutMe: React.FC = () => {
   const paragraphs =
     language === "VN" ? aboutMeData.paragraphs_vn : aboutMeData.paragraphs_EN;
 
+  const mycv = (language === "VN" ? "Nhấn để mở" : "Click to open")
+
   return (
     <React.Fragment>
       <section className="about-me relative mt-16 " id="about-me" ref={ref}>
@@ -121,9 +123,9 @@ const AboutMe: React.FC = () => {
                       ))}
                     </p>
                     {paragraph.link && (
-                      <p>
-                        CV của mình: {" "}
-                        <a href={paragraph.link} target="_blank" className="text-blue-500 hover:underline">ThangCV_EN</a>
+                      <p className="text-white text-4xl">
+                        {mycv}: {" "}
+                        <a href={paragraph.link} target="_blank" className="text-white text-4xl hover:underline hover:text-blue-500 italic">ThangCV</a>
                       </p>
                     )}
                   </div>

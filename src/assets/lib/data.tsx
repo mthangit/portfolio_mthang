@@ -7,7 +7,7 @@ import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
 // import nextjsicon from "../../assets/icons/nextjsicon.svg";
-import nodejsicon from "../../assets/icons/nodejsicon.svg";
+import nodejsicon from "../../assets/icons/nodejs.svg";
 // import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
 // import vuejsicon from "../../assets/icons/vueicon.svg";
@@ -108,7 +108,6 @@ export const projectsData = [
       { name: "Python", icon: python },
       { name: "YOLOv8", icon: yolo },
 
-
     ],
     image: tastyMockup,
     deploymenturl: "",
@@ -152,7 +151,7 @@ export const projectsData = [
       main: "main-btn",
       second: "secondary-btn",
       icon: "white",
-      projectcolor: "#FFD5BD",
+      // projectcolor: "#E3964A",
     },
   },
   {
@@ -228,7 +227,7 @@ export const skillsDataWeb = [
         title: "Flask",
         hash: "#Flask",
         icon: flask,
-        color: "#000000",
+        color: "#6c6b6b",
       },
       {
         title: "Java",
@@ -387,51 +386,51 @@ export const aboutMeData = {
   title: "About me",
   title_EN: "About me",
   description: "Một số thứ về mình",
-  description_EN: "A few code snippets about me",
+  description_EN: "A few things about me",
   paragraphs_vn: [
     {
       title: "Kinh nghiệm làm việc",
       description:
-        "Thực tập sinh Power Platform, khối CNTT - PNJ \n  - Thời gian: 9/2023 - 3/2024\n\n Cộng tác viên IT, IIG Vietnam\n - Thời gian 9/2022 - 9/2023",
+        "Thực tập sinh Power Platform, khối CNTT - PNJ \n\n  - Thời gian: 09/2023 - 03/2024\n\n Cộng tác viên IT, IIG Vietnam\n\n - Thời gian 9/2022 - 9/2023",
       icon: hardwareicon,
       link: "",
     },
     {
       title: "Học vấn",
       description:
-        "Trường Đại học CNTT, ĐHQG TPHCM (2021-2025)\n - Ngành học: Hệ thống thông tin\n - GPA: 8.3/10",
+        "Trường Đại học CNTT, ĐHQG TPHCM  \n\n - Thời gian: 2021 - Hiện tại\n\n - Ngành học: Hệ thống thông tin\n\n - GPA: 8.3/10",
       icon: caricon,
       link: "",
     },
     {
       title: "Thông tin cá nhân",
       description:
-        "Ngày sinh: 20/07/2003\n\n Địa chỉ: Hóc Môn, TP HCM\n",
+        "Ngày sinh: 20/07/2003\n\n Địa chỉ: Hóc Môn, Thành phố Hồ Chí Minh\n",
       icon: travelicon,
       link: "https://drive.google.com/file/d/10deGgZ0rTVSjQsq5HuqEGkVQHZJ5h_E9/view?usp=sharing"
     },
   ],
   paragraphs_EN: [
     {
-      title: "After Hours",
+      title: "Work experience",
       description:
-        "When I'm not coding, I immerse myself in movies and fantasy novels. A somewhat trivial talent of mine is that I can read stories all night long and still attend classes the next day as if nothing happened.",
+        "Intern - Power Platform, IT Department - PNJ \n\n  - Duration: 09/2023 - 03/2024\n\n IT Collaborator, IIG Vietnam\n\n - Duration: 9/2022 - 9/2023",
       icon: hardwareicon,
       link: "",
     },
     {
-      title: "On My Career Path",
+      title: "Education",
       description:
-        "I study at the University of Information Technology - Vietnam National University HCM. I seem to be quite fortunate in my academic journey, although I haven't received any scholarships yet 😢",
+        "University of Information Technology, VNU-HCM \n\n - Duration: 2021 - Present \n\n - Major: Information Systems\n\n - GPA: 8.3/10",
       icon: caricon,
       link: "",
     },
     {
-      title: "Hobbies",
+      title: "Personal Information",
       description:
-        "Although I have a fondness for modern and futuristic things, I also love traveling and exploring the beautiful, untouched landscapes of my country. Someday, I might embark on a cross-country motorcycle trip.",
+        "Date of Birth: July 20, 2003\n\n Address: Hoc Mon, Ho Chi Minh City\n",
       icon: travelicon,
-      link: "",
+      link: "https://drive.google.com/file/d/10deGgZ0rTVSjQsq5HuqEGkVQHZJ5h_E9/view?usp=sharing",
     },
   ],
 };
