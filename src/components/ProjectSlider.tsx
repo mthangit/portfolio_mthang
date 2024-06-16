@@ -25,13 +25,13 @@ const ProjectSlider: React.FC = () => {
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const notifyServerRequest = () => {
-    if (language === "VN") {
-      toast.info(toastMessages.loadingProject.vn);
-    } else {
-      toast.info(toastMessages.loadingProject.en);
-    }
-  };
+  // const notifyServerRequest = () => {
+  //   if (language === "VN") {
+  //     toast.info(toastMessages.loadingProject.vn);
+  //   } else {
+  //     toast.info(toastMessages.loadingProject.en);
+  //   }
+  // };
 
   return (
     <React.Fragment>
