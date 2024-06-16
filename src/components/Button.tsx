@@ -37,7 +37,7 @@ const Button: React.FC<ButtonProps> = ({
     return <input {...commonProps} value={value}></input>;
   } else {
     return (
-      <Link to={link || ""} className="no-underline">
+      <Link to={link || ""} className="no-underline" target="_blank">
         <button {...commonProps}>
           {IconSVGComponent ? (
             <IconSVGComponent className={"w-max h-10"} />

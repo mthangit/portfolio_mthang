@@ -13,14 +13,13 @@ import mongodbicon from "../../assets/icons/mongoicon.svg";
 // import vuejsicon from "../../assets/icons/vueicon.svg";
 // import expressicon from "../../assets/icons/expressicon.svg";
 // import sassscssicon from "../../assets/icons/sassicon.svg";
+import ggcolab from "../../assets/icons/colab.svg";
 import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
+import axiosicon from "../../assets/icons/axios.svg";
 // import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import expoicon from "../../assets/icons/expo.svg";
 import flask from "../../assets/icons/flask.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 // import wordpressicon from "../../assets/icons/wordpressicon.svg";
 // import shopifyicon from "../../assets/icons/shopifyicon.svg";
@@ -33,7 +32,6 @@ import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 // import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
-import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import reactnativeicon from "../../assets/icons/reactnativeicon.svg";
 import mysql from "../../assets/icons/mysqlicon.svg";
 import python from "../../assets/icons/python.svg";
@@ -49,6 +47,7 @@ import cpp from "../../assets/icons/cpp.svg";
 import oracle from "../../assets/icons/oracle.svg";
 import aibuilder from "../../assets/icons/aibuilder.svg";
 import docker from "../../assets/icons/docker.svg";
+import cloudinary from "../../assets/icons/cloudinary.svg";
 // import sqlserverwhite from "../../assets/icons/sqlserver.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -63,8 +62,8 @@ export const headerIntroData = {
   },
   subtitle: "Backend Developer ",
   description: {
-    vn: "Mình là Thắng, một sinh viên năm thứ ba với niềm đam mê mãnh liệt với công nghệ. Hiện tại, mình đang trên con đường chinh phục ước mơ trở thành một lập trình viên backend, và đây chính là nơi mình bắt đầu hiện thực hóa giấc mơ đó!",
-    en: "I'm Thang, a third-year student with a deep passion for technology. I am on a journey to fulfill my dream of becoming a backend developer, and this is where I start turning that dream into reality",
+    vn: "Mình là Thắng, một sinh viên năm thứ ba với niềm đam mê với công nghệ. Hiện tại, mình đang trên con đường trở thành một lập trình viên backend, và đây chính là nơi tóm tắt lại hành trình đó!",
+    en: "I'm Thang, a third-year student with a deep passion for technology. I am on a journey to becoming a backend developer, and this space will serve as a chronicle of my progress and experiences."
   },
   buttons: [
     {
@@ -122,29 +121,26 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "Jewelry Recognition",
     description:
-      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
+      "Trang web nhận diện và kiểm đếm trang sức nhằm hỗ trợ việc kiểm soát số lượng trang sức đã được bán trong cửa hàng khi kết thúc ca làm việc. Dựa vào dữ liệu từ ảnh được tải lên, hệ thống sẽ nhận diện và đếm số lượng trang sức của từng loại nhờ sử dụng mô hình YOLOv8.",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "The website uses a YOLOv8 model to recognize and count jewelry items, aiding in the control of jewelry sold in the store at the end of each shift. It processes uploaded images to identify and tally the quantity of each type of jewelry.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "Spotify Api", icon: spotifyicon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
+      { name: "Python", icon: python },
+      { name: "Flask", icon: flask },
+      { name: "YOLOv8", icon: yolo },
       { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
+      { name: "Cloudinary", icon: cloudinary },
+      { name: "Google Colab", icon: ggcolab },
     ],
     image: silentmoonMockup,
-    deploymenturl: "https://silentmoon-grpw.onrender.com/",
+    deploymenturl: "http://neuralparking.online:5000",
     githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+      "https://github.com/duonguwu/CS338.O21_PNJ",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -155,24 +151,22 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "E-commerce Website",
     description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+      "Trang web thương mại điện tử hỗ trợ phương thức mua sắm online mỹ phẩm từ cửa hàng cho khách hàng và trang Admin panel hỗ trợ việc quản lý số lượng mỹ phẩm và thông tin khách hàng. Trang web được xây dựng với Laravel và được tích hợp API thanh toán MoMo và VNPAY.",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "The e-commerce website supports online shopping for cosmetics from the store to customers, with an Admin panel for managing product inventory and customer information. The website is built using Laravel and integrates payment APIs from MoMo and VNPAY.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "Laravel", icon: laravel },
+      { name: "PHP", icon: php },
       { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
+      { name: "MySQL", icon: mysql },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
       { name: "Trello", icon: trelloicon },
+
     ],
     image: instorMockup,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",

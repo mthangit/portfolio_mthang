@@ -134,8 +134,6 @@ const ProjectSlider: React.FC = () => {
                         iconSVG={project.deploymenticon}
                         buttoncolor={project.colors.main}
                         iconcolor={project.colors.icon}
-                        onClick={notifyServerRequest}
-                        
                       />
                       <Button
                         label="Github Repository"
