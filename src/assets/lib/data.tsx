@@ -26,7 +26,7 @@ import jwticon from "../../assets/icons/jwticon.svg";
 // import shopifyicon from "../../assets/icons/shopifyicon.svg";
 // import webflowicon from "../../assets/icons/webflowicon.svg";
 // import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+// import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import ecom from "../../assets/img/webecom.webp";
 import profilepicture from "../img/anh1.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -50,6 +50,7 @@ import aibuilder from "../../assets/icons/aibuilder.svg";
 import docker from "../../assets/icons/docker.svg";
 import cloudinary from "../../assets/icons/cloudinary.svg";
 import pusher from "../../assets/icons/pusher.svg";
+import jewelry from "../../assets/img/jewelry.webp";
 // import sqlserverwhite from "../../assets/icons/sqlserver.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -64,7 +65,7 @@ export const headerIntroData = {
   },
   subtitle: "Backend Developer ",
   description: {
-    vn: "Mình là Thắng, một sinh viên năm thứ ba với niềm đam mê với công nghệ. Hiện tại, mình đang trên con đường trở thành một lập trình viên backend, và đây chính là nơi tóm tắt lại hành trình đó!",
+    vn: "Mình là Thắng, một sinh viên năm thứ ba cùng niềm đam mê với công nghệ. Hiện tại, mình đang trên con đường trở thành một lập trình viên backend, và đây chính là nơi tóm tắt lại hành trình đó!",
     en: "I'm Thang, a third-year student with a deep passion for technology. I am on a journey to becoming a backend developer, and this space will serve as a chronicle of my progress and experiences."
   },
   buttons: [
@@ -138,7 +139,7 @@ export const projectsData = [
       { name: "Cloudinary", icon: cloudinary },
       { name: "Google Colab", icon: ggcolab },
     ],
-    image: silentmoonMockup,
+    image: jewelry,
     deploymenturl: "http://neuralparking.online:5000",
     githuburl:
       "https://github.com/duonguwu/CS338.O21_PNJ",
