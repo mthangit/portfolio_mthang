@@ -1,6 +1,6 @@
 // import adobexdicon from "../../assets/icons/adobexdicon.svg";
 // import canvaicon from "../../assets/icons/canvaicon.svg";
-import figmaicon from "../../assets/icons/figmaicon.svg";
+// import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
@@ -13,10 +13,11 @@ import mongodbicon from "../../assets/icons/mongoicon.svg";
 // import vuejsicon from "../../assets/icons/vueicon.svg";
 // import expressicon from "../../assets/icons/expressicon.svg";
 // import sassscssicon from "../../assets/icons/sassicon.svg";
+import bootstrap from "../../assets/icons/bootstrap5.svg";
 import ggcolab from "../../assets/icons/colab.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axios.svg";
+import healthapp from "../../assets/img/healthapp.webp";
 // import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import expoicon from "../../assets/icons/expo.svg";
 import flask from "../../assets/icons/flask.svg";
@@ -24,9 +25,9 @@ import jwticon from "../../assets/icons/jwticon.svg";
 // import wordpressicon from "../../assets/icons/wordpressicon.svg";
 // import shopifyicon from "../../assets/icons/shopifyicon.svg";
 // import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
+// import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import ecom from "../../assets/img/webecom.webp";
 import profilepicture from "../img/anh1.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -48,6 +49,7 @@ import oracle from "../../assets/icons/oracle.svg";
 import aibuilder from "../../assets/icons/aibuilder.svg";
 import docker from "../../assets/icons/docker.svg";
 import cloudinary from "../../assets/icons/cloudinary.svg";
+import pusher from "../../assets/icons/pusher.svg";
 // import sqlserverwhite from "../../assets/icons/sqlserver.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -97,18 +99,17 @@ export const projectsData = [
       "The mobile application aims to manage health, track physical activity, monitor calorie intake, track water consumption, provide personalized dish suggestions and meal plans based on individual data and ingredient detected from the camera.",
     technologies: [
       { name: "JavaScript", icon: javascripticon },
-      { name: "REST APIs", icon: apiicon },
       { name: "React Native", icon: reactnativeicon },
-      { name: "Figma", icon: figmaicon },
+      { name: "Python", icon: python },
       { name: "Flask", icon: flask },
       { name: "Expo", icon: expoicon },
       { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "REST APIs", icon: apiicon },
       { name: "MySQL", icon: mysql },
-      { name: "Python", icon: python },
       { name: "YOLOv8", icon: yolo },
 
     ],
-    image: tastyMockup,
+    image: healthapp,
     deploymenturl: "",
     githuburl: "https://github.com/mthangit/HealthBuddyApp",
     githubicon: FiGithub,
@@ -147,7 +148,7 @@ export const projectsData = [
       main: "main-btn",
       second: "secondary-btn",
       icon: "white",
-      // projectcolor: "#E3964A",
+      projectcolor: "#E3964A",
     },
   },
   {
@@ -159,18 +160,19 @@ export const projectsData = [
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
+      { name: "Bootstrap", icon: bootstrap },
       { name: "JavaScript", icon: javascripticon },
       { name: "Laravel", icon: laravel },
       { name: "PHP", icon: php },
       { name: "Axios", icon: axiosicon },
+      { name: "Pusher", icon: pusher },
       { name: "MySQL", icon: mysql },
-      { name: "Figma", icon: figmaicon },
-      { name: "Trello", icon: trelloicon },
+
 
     ],
-    image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    image: ecom,
+    deploymenturl: "",
+    githuburl: "https://github.com/mthangit/Web_IS207.O11",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -519,8 +521,8 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    vn: "🦄 Demo đang chạy, bạn đợi chút nhé...",
-    en: "🦄 The live demo will open shortly. Starting servers...",
+    vn: "🦄 Hiện tại chưa có live demo cho dự án này...",
+    en: "🦄 There is currently no live demo for this project",
   },
   successEmailSent: {
     vn: "🦄 Cảm ơn vì đã gửi mail cho mình. Mình sẽ trả lời sớm nhất có thể",

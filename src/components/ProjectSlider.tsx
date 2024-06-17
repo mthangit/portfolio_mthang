@@ -2,14 +2,15 @@ import bannerBg from "../assets/img/bannerbg.webp";
 import React, { useRef } from "react";
 import Button from "./Button";
 import LiveTicker from "./ParallaxText";
-import { projectsData } from "../assets/lib/data";
+import { projectsData, toastMessages } from "../assets/lib/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectCards, Pagination } from "swiper/modules";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import { useSectionInView } from "../assets/lib/hooks";
 import { useLanguage } from "../context/language-context";
 import { motion, useScroll, useTransform } from "framer-motion";
+
 import "react-toastify/dist/ReactToastify.css";
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -25,13 +26,13 @@ const ProjectSlider: React.FC = () => {
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  // const notifyServerRequest = () => {
-  //   if (language === "VN") {
-  //     toast.info(toastMessages.loadingProject.vn);
-  //   } else {
-  //     toast.info(toastMessages.loadingProject.en);
-  //   }
-  // };
+  const notifyServerRequest = () => {
+    if (language === "VN") {
+      toast.info(toastMessages.loadingProject.vn);
+    } else {
+      toast.info(toastMessages.loadingProject.en);
+    }
+  };
 
   return (
     <React.Fragment>
@@ -134,6 +135,7 @@ const ProjectSlider: React.FC = () => {
                         iconSVG={project.deploymenticon}
                         buttoncolor={project.colors.main}
                         iconcolor={project.colors.icon}
+                        onClick={project.deploymenturl === "" ? notifyServerRequest : () => {}}
                       />
                       <Button
                         label="Github Repository"
@@ -161,7 +163,7 @@ const ProjectSlider: React.FC = () => {
                 key={index}
                 className="bg-darkblue flex flex-col gap-10 w-[80%] h-full  border-lightblue border-[0.4rem] p-8 rounded-xl mb-10 min-[1024px]:hidden max-lg:w-[90%]"
               >
-                <h2 className="text-white">{project.title}</h2>
+                <h2 className="text-white">{project.title} Helo </h2>
                 <img
                   src={project.image}
                   alt={project.image}

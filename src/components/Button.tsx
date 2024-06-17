@@ -35,9 +35,14 @@ const Button: React.FC<ButtonProps> = ({
 
   if (elementType === "input") {
     return <input {...commonProps} value={value}></input>;
-  } else {
+  } else if (link) { // Kiểm tra xem link có giá trị không
     return (
-      <Link to={link || ""} className="no-underline" target="_blank">
+      <Link
+        to={link}
+        className="no-underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <button {...commonProps}>
           {IconSVGComponent ? (
             <IconSVGComponent className={"w-max h-10"} />
@@ -45,12 +50,27 @@ const Button: React.FC<ButtonProps> = ({
             <img
               src={buttoncolor || ""}
               alt={`${label}-icon`}
-              className={`bg-[${buttoncolor || ""}] w-16 `}
+              className={`bg-[${buttoncolor || ""}] w-16`}
             />
           )}
           {label}
         </button>
       </Link>
+    );
+  } else { // Nếu không có link, hiển thị button bình thường
+    return (
+      <button {...commonProps}>
+        {IconSVGComponent ? (
+          <IconSVGComponent className={"w-max h-10"} />
+        ) : (
+          <img
+            src={buttoncolor || ""}
+            alt={`${label}-icon`}
+            className={`bg-[${buttoncolor || ""}] w-16`}
+          />
+        )}
+        {label}
+      </button>
     );
   }
 };
