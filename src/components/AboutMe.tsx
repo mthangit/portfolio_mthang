@@ -125,7 +125,7 @@ const AboutMe: React.FC = () => {
                     {paragraph.link && (
                       <p className="text-white text-4xl">
                         {mycv}: {" "}
-                        <a href={paragraph.link} target="_blank" className="text-white text-4xl hover:underline hover:text-blue-500 italic">ThangCV</a>
+                        <a href={paragraph.link} target="_blank" className="text-white text-4xl hover:underline hover:text-blue-500 italic">Thang_Resume</a>
                       </p>
                     )}
                   </div>
