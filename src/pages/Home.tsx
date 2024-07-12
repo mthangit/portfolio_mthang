@@ -7,6 +7,8 @@ import { ScrollProgress } from "../components/ScrollProgress";
 import Divider from "../components/Divider";
 import ProjectSlider from "../components/ProjectSlider";
 
+import { Analytics } from '@vercel/analytics/react';
+
 const LazyBannerQuote = lazy(() => import("../components/BannerQuote"));
 const LazySiteBarRight = lazy(() => import("../components/SideBarRight"));
 const LazySiteBarLeft = lazy(() => import("../components/SiteBarLeft"));
@@ -101,6 +103,7 @@ const Home: React.FC = () => {
           </Suspense>
         </main>
         <Footer />
+        <Analytics />
       </Layout>
     </>
   );
