@@ -388,7 +388,7 @@ export const aboutMeData = {
     {
       title: "Kinh nghiệm làm việc",
       description:
-        "Thực tập sinh Software Engineer, Bosch Global Software Technologies \n\n  - Thời gian: 08/2024 - Present\n\n Thực tập sinh Power Platform, khối CNTT - PNJ\n\n - Thời gian 09/2023 - 03/2024",
+        "Thực tập sinh Embedded Software Engineer\n Bosch Global Software Technologies \n\n  - Thời gian: 08/2024 - Present\n\n Thực tập sinh Power Platform, khối CNTT - PNJ\n\n - Thời gian 09/2023 - 03/2024",
       icon: hardwareicon,
       link: "",
     },
@@ -411,7 +411,7 @@ export const aboutMeData = {
     {
       title: "Work experience",
       description:
-        "Intern - Software Engineer, Bosch Global Software Technologies\n\n  - Duration: 08/2024 - Present\n\n Intern - Power Platform, IT Department - PNJ\n\n - Duration: 09/2023 - 03/2024",
+        "Intern - Embedded Software Engineer\n Bosch Global Software Technologies\n\n  - Duration: 08/2024 - Present\n\n Intern - Power Platform, IT Department - PNJ\n\n - Duration: 09/2023 - 03/2024",
       icon: hardwareicon,
       link: "",
     },
