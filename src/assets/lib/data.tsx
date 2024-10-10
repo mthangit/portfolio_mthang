@@ -395,7 +395,7 @@ export const aboutMeData = {
     {
       title: "Học vấn",
       description:
-        "Trường Đại học CNTT, ĐHQG TPHCM  \n\n - Thời gian: 2021 - Hiện tại\n\n - Ngành học: Hệ thống thông tin\n\n - GPA: 8.3/10",
+        "Trường Đại học CNTT, ĐHQG TPHCM  \n\n - Thời gian: 2021 - Hiện tại\n\n - Ngành học: Hệ thống thông tin\n\n - GPA: 8.36/10",
       icon: caricon,
       link: "",
     },
@@ -418,7 +418,7 @@ export const aboutMeData = {
     {
       title: "Education",
       description:
-        "University of Information Technology, VNU-HCM \n\n - Duration: 2021 - Present \n\n - Major: Information Systems\n\n - GPA: 8.3/10",
+        "University of Information Technology, VNU-HCM \n\n - Duration: 2021 - Present \n\n - Major: Information Systems\n\n - GPA: 8.36/10",
       icon: caricon,
       link: "",
     },
