@@ -388,7 +388,7 @@ export const aboutMeData = {
     {
       title: "Kinh nghiệm làm việc",
       description:
-        "Thực tập sinh Embedded Software Engineer\n Bosch Global Software Technologies \n\n  - Thời gian: 08/2024 - Present\n\n Thực tập sinh Power Platform, khối CNTT - PNJ\n\n - Thời gian 09/2023 - 03/2024",
+        "Thực tập sinh Python Software Engineer\n Bosch Global Software Technologies \n\n  - Thời gian: 08/2024 - Present\n\n Thực tập sinh Power Platform, khối CNTT - PNJ\n\n - Thời gian 09/2023 - 03/2024",
       icon: hardwareicon,
       link: "",
     },
@@ -404,14 +404,14 @@ export const aboutMeData = {
       description:
         "Ngày sinh: 20/07/2003\n\n Địa chỉ: Hóc Môn, Thành phố Hồ Chí Minh\n",
       icon: travelicon,
-      link: "https://drive.google.com/file/d/1P0NxDCprSczOhe85p-MrSsg_2NDqbJzj/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1aeMzl0uu70c8OCtu_ncn0zCiSgWR22KF/view?usp=sharing"
     },
   ],
   paragraphs_EN: [
     {
       title: "Work experience",
       description:
-        "Intern - Embedded Software Engineer\n Bosch Global Software Technologies\n\n  - Duration: 08/2024 - Present\n\n Intern - Power Platform, IT Department - PNJ\n\n - Duration: 09/2023 - 03/2024",
+        "Intern - Python Software Engineer\n Bosch Global Software Technologies\n\n  - Duration: 08/2024 - Present\n\n Intern - Power Platform, IT Department - PNJ\n\n - Duration: 09/2023 - 03/2024",
       icon: hardwareicon,
       link: "",
     },
@@ -427,7 +427,7 @@ export const aboutMeData = {
       description:
         "Date of Birth: July 20, 2003\n\n Address: Hoc Mon, Ho Chi Minh City\n",
       icon: travelicon,
-      link: "https://drive.google.com/file/d/1P0NxDCprSczOhe85p-MrSsg_2NDqbJzj/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1aeMzl0uu70c8OCtu_ncn0zCiSgWR22KF/view?usp=sharing",
     },
   ],
 };
