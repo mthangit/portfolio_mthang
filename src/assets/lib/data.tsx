@@ -374,8 +374,8 @@ export const quotesData = [
     author_vn: "Chủ tịch Hồ Chí Minh",
   },
   {
-    vn: '"Cuộc sống là một tờ giấy trắng, hãy vẽ lên nó với trải nghiệm của mình!"',
-    en: `"Life is a blank sheet of paper, paint it with your experiences."`,
+    vn: '"Ngôn ngữ chỉ là công cụ, tư duy mới tạo nên sự khác biệt!"',
+    en: `"Language is a Tool, Mindset Makes the Difference."`,
   },
 ] as const;
 
