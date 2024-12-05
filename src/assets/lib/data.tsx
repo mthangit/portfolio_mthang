@@ -404,7 +404,7 @@ export const aboutMeData = {
       description:
         "Ngày sinh: 20/07/2003\n\n Địa chỉ: Hóc Môn, Thành phố Hồ Chí Minh\n",
       icon: travelicon,
-      link: "https://drive.google.com/file/d/1aeMzl0uu70c8OCtu_ncn0zCiSgWR22KF/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1uegBWhvX1MtsOLQSJJYz-el8FwicHTym/view?usp=sharing"
     },
   ],
   paragraphs_EN: [
@@ -427,7 +427,7 @@ export const aboutMeData = {
       description:
         "Date of Birth: July 20, 2003\n\n Address: Hoc Mon, Ho Chi Minh City\n",
       icon: travelicon,
-      link: "https://drive.google.com/file/d/1aeMzl0uu70c8OCtu_ncn0zCiSgWR22KF/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1uegBWhvX1MtsOLQSJJYz-el8FwicHTym/view?usp=sharing",
     },
   ],
 };
