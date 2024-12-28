@@ -65,8 +65,8 @@ export const headerIntroData = {
   },
   subtitle: "Backend Developer ",
   description: {
-    vn: "Mình là Thắng, một sinh viên năm thứ ba cùng niềm đam mê với công nghệ. Hiện tại, mình đang trên con đường trở thành một lập trình viên backend, và đây chính là nơi tóm tắt lại hành trình đó!",
-    en: "I'm Thang, a third-year student with a deep passion for technology. I am on a journey to becoming a backend developer, and this space will serve as a chronicle of my progress and experiences."
+    vn: "Mình là Thắng, một sinh viên năm thứ cuối cùng niềm đam mê với công nghệ. Hiện tại, mình đang trên con đường trở thành một lập trình viên backend, và đây chính là nơi tóm tắt lại hành trình đó!",
+    en: "I'm Thang, a senior student with a deep passion for technology. I am on a journey to becoming a backend developer, and this space will serve as a chronicle of my progress and experiences."
   },
   buttons: [
     {
@@ -404,7 +404,7 @@ export const aboutMeData = {
       description:
         "Ngày sinh: 20/07/2003\n\n Địa chỉ: Hóc Môn, Thành phố Hồ Chí Minh\n",
       icon: travelicon,
-      link: "https://drive.google.com/file/d/1uegBWhvX1MtsOLQSJJYz-el8FwicHTym/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1jNw7PVeWFi7cYEL3qXp5oDvmItRr7-5K/view?usp=sharing"
     },
   ],
   paragraphs_EN: [
@@ -427,7 +427,7 @@ export const aboutMeData = {
       description:
         "Date of Birth: July 20, 2003\n\n Address: Hoc Mon, Ho Chi Minh City\n",
       icon: travelicon,
-      link: "https://drive.google.com/file/d/1uegBWhvX1MtsOLQSJJYz-el8FwicHTym/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1jNw7PVeWFi7cYEL3qXp5oDvmItRr7-5K/view?usp=sharing",
     },
   ],
 };
