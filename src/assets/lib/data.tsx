@@ -28,7 +28,7 @@ import jwticon from "../../assets/icons/jwticon.svg";
 // import instorMockup from "../../assets/img/instor_mockup.webp";
 // import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import ecom from "../../assets/img/webecom.webp";
-import profilepicture from "../img/anh1.jpg";
+import profilepicture from "../img/IMG_1198.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
